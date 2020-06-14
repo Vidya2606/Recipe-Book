@@ -1,0 +1,169 @@
+body {
+  font-family: verdana;
+}
+h2 {
+  color: #0d0d0eef;
+  border-bottom: 1px solid #0d0d0eef;
+  font-size: 2em;
+  font-family:Georgia;
+  text-align: center;
+  width: 99%;
+  height: 40px;
+  margin: auto;
+  padding: 10px 10px 10px 10px;
+}
+input[type=text], select {
+  width: 94%;
+  padding: 12px 20px;
+}
+textarea {
+  width: 94%;
+  text-align: left;
+  resize: vertical;
+}
+.error-message {
+  background-color: rgba(128,161,142,0.29);
+  color: black;
+  height: 15px;
+  font-size: small;
+  font-weight: bold;
+  padding: 6px;
+  margin-bottom: 6px;
+}
+.button {
+  background-color: #2d4558;
+  color: white;
+  font-weight: bold;
+  padding: 11px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+.user-button {
+  background-color: white;
+  color: #2d4558;
+  font-weight: bold;
+  padding: 11px 20px;
+  border: solid 1px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin: 5px 5px 5px 5px;
+}
+.user-name-input {
+  width: 15%;
+  height: 30px;
+  padding : 0px 0px 0px 5px;
+  margin-bottom: 0px;
+}
+.page-content {
+  margin: auto;
+  width: 66%;
+  border-radius: 1px;
+  padding: 10px;
+}
+.recipe-item {
+  background-color: #2d4558;
+  color: white;
+  border: 0.5px solid;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  letter-spacing: 3px;
+  line-height: 20px;
+  padding: 12px 8px 12px 40px;
+  margin: 10px 10px 5px 10px;
+  text-align: center;
+  list-style-type: none;
+  overflow: scroll;
+}
+
+.recipe-part{
+  border: 0.5px solid #2d4558;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px 20px 20px 20px;
+  list-style-type: none;
+}
+.add-recipe {
+  border: 0.5px solid;
+  font-family: Arial, Helvetica, sans-serif;
+  list-style-type: none;
+}
+
+.recipe-title {
+  background-color: #2d4558;
+  color: white;
+  border: 0.5px solid;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  letter-spacing: 3px;
+  line-height: 20px;
+  padding: 12px 8px 12px 40px;
+  margin: 10px 10px 5px 10px;
+  text-align: center;
+  list-style-type: none;
+  
+}
+
+.recipe-author {
+  background-color: white;
+  color:#2d4558;
+  border: 0.5px solid #2d4558;
+  border-radius: 4px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  padding: 4px 4px 4px 4px;
+  margin: 5px 10px 10px 10px;
+  text-align: left;
+  list-style-type: none;
+  display:inline-block;
+}
+
+.recipe-ingredients {
+  color: #444;
+  border: 0.5px solid;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  word-wrap: break-word;
+  font-size: 14px;
+  line-height: 20px;
+  height: 200px;
+  padding: 12px 8px 12px 40px;
+  margin: 10px 10px 10px 10px;
+  list-style-type: none;
+  overflow: scroll;
+}
+
+.recipe-instructions {
+  color: #444;
+  border: 0.5px solid;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  word-wrap: break-word;
+  font-size: 14px;
+  line-height: 20px;
+  height: 200px;
+  padding: 12px 8px 12px 40px;
+  margin: 10px 10px 10px 10px;
+  list-style-type: none;
+  overflow: scroll;
+}
+.recipe-titles {
+  color: #a18f7a;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 3px;
+}
+
+.save-recipe {
+  background-color: steelblue;
+  color: white;
+  font-weight: bold;
+  padding: 11px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 5px;
+}

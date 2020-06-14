@@ -1,0 +1,37 @@
+// key: recipe id, value: ingredients & instructions
+const recipeDB = {
+    "01-01-01": {
+        "title": "Brown Butter Bourbon Banana Bread",
+        "author": "Jennifer Perillo",
+        "ingredients": "2 cups flour \n, 1/4 teaspoon baking soda\n,1/2 teaspoon baking powder\n,1/2 teaspoon salt\n,8 tablespoons butter\n, 3 very ripe bananas\n, 2 large eggs\n, 3/4 cup plus 1 tablespoon, brown sugar, divided\n, 1 teaspoon pure vanilla extract\n, 1 tablespoon bourbon\n, 1/2 cup buttermilk\n, 2/3 cup toasted, chopped pecan\n",
+        "instructions": "1. Preheat oven to 350° F. Grease only the bottom of a standard size loaf pan with butter or nonstick cooking spray. Combine flour, baking soda, baking powder, and salt in a medium-sized bowl. Set aside.\n 2. Melt butter over medium heat in a small, heavy-bottomed pot. Cook until it begins to brown, but not burn; it will smell nutty and fragrant. Remove from heat and let cool for 10 minutes.\n 3. Peel and dice one banana. Mash the remaining two bananas in a small bowl; set aside. Heat 1 tablespoon of the brown sugar in a small skillet over medium heat until it begins to melt and turn golden. Add diced banana pieces and sauté until well coated and caramelized. Remove from the pan and set aside. \n 4. Beat eggs on medium speed in a stand mixer. Add the remaining brown sugar and beat until foamy and combined. Add the mashed bananas, cooled browned butter, vanilla, and bourbon; beat until mixed well. Scrape down sides of bowl again with rubber spatula.\n 5. On low speed, pour in 1/3 of the flour mixture. Increase mixer speed to medium and mix until just blended. Pour in 1/3 of buttermilk and beat until just blended. Repeat this process with remaining flour and buttermilk. Fold in pecans and caramelized banana pieces. Pour into prepared loaf pan and bake for 55 to 60 minutes, until a toothpick inserted in center comes out clean.\n"
+    },
+    "02-02-02": {
+        "title": "Strawberry-Fennel Ice Cream",
+        "author": "Gluttonforlife",
+        "ingredients": "13/4 cup heavy raw or organic cream\n3 fat strips of lemon zest\n1/2 teaspoon fennel pollen\n1/8 teaspoon sea salt\n2 large free-range eggs\n3 cups ripe strawberries, trimmed and halved\n1 cup strawberries, trimmed and cut into chunks\njuice of 1/2 lemon\n",
+        "instructions": "1. Combine cream, zest, fennel pollen and salt in a heavy saucepan and bring to a boil. Remove from heat and discard zest.\n 2. Whisk eggs with 2/3 cup agave nectar in a bowl, then add hot cream in a slow stream, whisking constantly. Pour back into saucepan and cook over moderately low heat, stirring constantly, until slightly thickened and an instant-read thermometer registers 170°. Do not boil! \n 3. Immediately pour custard through a fine sieve into a metal bowl, then cool to room temperature, stirring occasionally. Cover and chill until cold, at least 2 hours and up to 1 day.\n 4. While custard is chilling, purée strawberries with lemon juice and remaining 3 tablespoons agave nectar until smooth, then force through fine sieve to remove seeds (or not, this step is optional) into chilled custard. Stir purée into custard.\n 5. Freeze in ice-cream maker. About ¾ of the way through (time varies depending on your machine), stir in strawberry chunks. Finish freezing, then transfer to an airtight container and put in freezer to harden.\n"
+    },
+    "03-03-03": {
+        "title": "Cucumber and Red Onion Salad",
+        "author": "Alexandra Stafford",
+        "ingredients": "2 cucumbers (about a pound)\n,1 small red onion or a few shallots\n, 2 teaspoons kosher salt\n, 1 tablespoon vinegar such as white balsamic, white wine, or rice\n, Fresh herbs such as basil, dill, mint or parsley\n, Olive oil (optional)",
+        "instructions": "1. Peel cucumbers. Slice one cucumber crosswise and taste. If it tastes bitter, halve the cucumber lengthwise and scoop out the seeds, then slice the cucumber into 1/8- to 1/4-inch thick pieces. Otherwise, slice the cucumber into 1/8- to 1/4-inch thick rounds. Repeat with remaining cucumber.\n  2. Peel the onion or shallots, cut in half, and slice as thinly as possible. Place them in a large bowl with the cucumbers and toss with the salt. Let sit for 45 minutes. \n 3. Rinse the cucumbers and onions, drain, and taste for salt. If they are too salty, rinse and drain again. Place in a clean towel and press lightly to dry. Transfer cucumbers to a clean bowl and sprinkle with vinegar. Toss with herbs. Taste. Often I find I don't even need to add oil, but add a splash if you wish. Serve. Note: If you want to make this ahead, add the herbs just before serving.",
+    },
+    "04-04-04": {
+        "title": "Chickpea salad",
+        "author": "Asha",
+        "ingredients": "1 cup dried chickpeas, soaked overnight\n, 2 teaspoons whole black mustard seeds\n, 7 sprigs curry leaves\n, 4 green chillies, diced\n, 3 tablespoons dessicated coconut\n, 1 pinch salt, as needed",
+        "instructions": "1. Soak the beans, in enough water and a little salt, overnight. Cook the beans in salted water in pan or in a pressure cooker (2-1/2 whistles) until just done. Drain and set aside. This can be made upto 2 days ahead.\n 2. In a shallow pan, saute a bit or oil (ghee is best!). When the oil is hot, add the mustard seeds and wait for them to pop.\n 3. Add the curry leaves and chillies. As they start to crisp up, add the cooked beans.\n 4. Toss and cook on low for a couple of minutes. Sprinkle the grated coconut and toss and cook for a few minutes.\n",
+    },
+    "05-05-05": {
+        "title": "Bubble Tea",
+        "author": "Molly Yeh",
+        "ingredients": "1/2 cup dried black boba pearls\n, 1 cup honey or 1/2 cup white sugar + 1/2 cup brown sugar\n, 3 black tea bags\n, 2 cups milk or almond milk or a few tablespoons (to taste) of sweetened condensed milk\n, Ice\n, Any additional flavorings such as syrups, frozen fruits (to be blended like a smoothie), flavored powders, or extracts",
+        "instructions": "1. Bring a large pot of water to a rolling boil over high heat. Add boba and continue to boil, stirring occasionally, for 15 minutes. Turn off the heat, cover, and let sit for 12 to 15 more minutes.\n 2. While the boba pearls are boiling, make a simple syrup: combine 1 cup of water with honey or sugar in a saucepan and bring to a boil, stirring, over medium heat. Remove it from heat when it reaches a boil and set it aside until the pearls are ready.\n 3. Steep the 3 tea bags in 2 cups of boiling water for 4 minutes and let cool.\n 4. When the pearls are ready, drain them and then gently stir them into the syrup. Let sit for 15 minutes.\n 5. Distribute the pearls into two glasses and then combine the tea, the milk, and any desired flavorings in a cocktail shaker with a few cubes of ice (this might be easiest to do one serving at a time-- 1 cup of tea and milk). Shake the tea vigorously and then pour it into a glass. While some say the name bubble tea is derived from the boba pearls, others say that the foam (or bubbles) on top of the tea that forms when shaking it is the real reason for why it's called bubble tea.\n 6. If you're wanting to use frozen fruit to make a smoothie, blend the 2 cups of tea, 2 cups of milk (or a few tablespoons of condensed milk), and about 3 cups of fruit in a blender until smooth. Pour over the pearls."
+    }
+};
+
+module.exports = {
+    recipeDB,
+}
